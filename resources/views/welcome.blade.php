@@ -199,9 +199,19 @@
 
     <link rel="stylesheet" href="{{asset('tourist/css/swiper-bundle.min.css')}}" />
 
-    
+
 </head>
 <body>
+
+    <section id="header">
+
+    </section>
+    <section id="page_content">
+
+    </section>
+    <section id="footer_section">
+        
+    </section>
 
 
 

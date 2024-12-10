@@ -25,10 +25,36 @@ export default {
             lg: '1024px',
             xl: '1280px',
         },
+        backgroundImage:
+        {
+            hero: 'url(/public/images/bg.jpg)',
+            grid: 'url(/public/images/grid.png)',
+
+        },
+        fontFamily:
+        {
+              primary: 'DM Serif Display',
+            secondary: 'Jost'
+
+        },
         extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-            },
+            // fontFamily: {
+            //     sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+              
+            // },
+            colors:
+            {
+                primary:{
+                    DEFAULT:'#292f36',
+                    hover:'#343e4a',
+                },
+                secondary:'#4d5053',
+                accent:{
+                    DEFAULT:'#cda274',
+                    secondary:'#f4f0ec',
+                    hover:'#b88c5d'
+                },
+            }
         },
     },
 
