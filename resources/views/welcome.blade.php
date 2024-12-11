@@ -201,17 +201,51 @@
 
 
 </head>
-<body>
+<body class="bg-gray-100">
 
     <section id="header">
 
     </section>
     <section id="page_content">
+  
+        <main class=" mx-auto bg-white overflow-hidden">
+            
+            <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10">
+
+            </div>
+
+            <section class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
+                <div class="container mx-auto h-full flex items-center justify-center xl:justify-start">
+
+                    <div class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start">
+    
+                        <h1 class="h1">Let Your Home Be Unique</h1>
+                        <p class="mb-8" >
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, ipsum autem incidunt aperiam velit ea magni aut non repudiandae vel?
+                        </p>
+                        <button class="btn btn-primary mx-auto xl:mx-0">
+                            Book Trip Now
+                            <i class="ri-arrow-right-line text-accent"></i>
+                        </button>
+                    </div>
+    
+    
+                </div>
+
+            </section>
+
+           
+
+
+        </main>
+        <div class="h-[3000px]"></div>
+
 
     </section>
     <section id="footer_section">
-        
+
     </section>
+    
 
 
 

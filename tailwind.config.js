@@ -27,8 +27,8 @@ export default {
         },
         backgroundImage:
         {
-            hero: 'url(/public/images/bg.jpg)',
-            grid: 'url(/public/images/grid.png)',
+            hero: 'url(/public/tourist/images/bg.jpg)',
+            grid: 'url(/public/tourist/images/grid.png)',
 
         },
         fontFamily:
